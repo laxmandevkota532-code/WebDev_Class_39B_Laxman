@@ -4,27 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boss Portfolio</title>
-</head>
 
+    <!-- CSS File -->
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
-    <!-- Boss Name and Position -->
-    <h1 id="top">Laxman Devkota</h1>
-    <h2>Chief Executive Officer</h2>
+    <!-- Header -->
 
-    <!-- Internal Links -->
-    <nav>
-        <a href="#introduction">Introduction</a> |
-        <a href="#experience">Experience</a> |
-        <a href="#skills">Skills</a> |
-        <a href="#projects">Projects</a> |
-        <a href="#video">YouTube Video</a>
-    </nav>
+    <header>
 
-    <hr>
+        <h1 id="top">Laxman Devkota</h1>
+
+        <h2>Chief Executive Officer</h2>
+
+        <!-- Navigation Links -->
+        <nav>
+            <a href="#introduction">Introduction</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#video">YouTube Video</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
 
     <!-- Introduction -->
+
     <section id="introduction">
+
         <h2>Introduction</h2>
 
         <p>
@@ -39,15 +50,16 @@
 
         <!-- Boss Image -->
         <figure>
-            <img src="/Assignment Portfolio/photo.jpg" alt="Boss Image" height="200">
+            <img src="photo.jpg" alt="Boss Image" height="200">
             <figcaption>MIEx LAXXU</figcaption>
         </figure>
+
     </section>
 
-    <hr>
-
     <!-- Experience -->
+
     <section id="experience">
+
         <h2>Experience</h2>
 
         <ol>
@@ -57,15 +69,18 @@
             <li>Project Manager - 2024</li>
             <li>Chief Executive Officer - 2026</li>
         </ol>
+
     </section>
 
-    <hr>
-
     <!-- Skills -->
+
+
     <section id="skills">
+
         <h2>Skills</h2>
 
         <table border="1">
+
             <tr>
                 <th>Skills</th>
                 <th>Years</th>
@@ -90,13 +105,16 @@
                 <td>Leadership</td>
                 <td>4 Years</td>
             </tr>
+
         </table>
+
     </section>
 
-    <hr>
 
     <!-- Projects -->
+
     <section id="projects">
+
         <h2>Projects</h2>
 
         <ul>
@@ -106,15 +124,18 @@
             <li>Employee Management System</li>
             <li>Customer Management System</li>
         </ul>
+
     </section>
 
-    <hr>
-
     <!-- YouTube Video -->
+
     <section id="video">
+
         <h2>YouTube Video</h2>
 
-        <iframe width="560" height="315"
+        <iframe
+            width="560"
+            height="315"
             src="https://www.youtube.com/embed/JXRN_LkCa_o?si=AmeiT26rm14qavHr"
             title="YouTube video player"
             frameborder="0"
@@ -122,10 +143,56 @@
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen>
         </iframe>
-         
+
+    </section>
+    <!-- Contact Form -->
+
+    <section id="contact">
+
+        <h2>Contact Form</h2>
+
+        <form>
+
+            <label>Name:</label>
+            <input type="text" name="name">
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email">
+            <br><br>
+
+            <label>Phone Number:</label>
+            <input type="tel" name="phone">
+            <br><br>
+
+            <label>Gender:</label>
+
+            <input type="radio" name="gender" value="male">
+            Male
+
+            <input type="radio" name="gender" value="female">
+            Female
+
+            <br><br>
+
+            <label>Role:</label>
+
+            <select name="role">
+                <option value="developer">Developer</option>
+                <option value="manager">Manager</option>
+                <option value="designer">Designer</option>
+                <option value="other">Other</option>
+            </select>
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
     </section>
 
-    <hr>
+    <br>
 
     <a href="#top">Back to Top</a>
 

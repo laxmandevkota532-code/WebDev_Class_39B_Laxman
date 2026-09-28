@@ -1,0 +1,149 @@
+/* Whole Page */
+
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Header */
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Boss Name */
+
+h1 {
+    text-align: center;
+}
+
+/* Position */
+header h2 {
+    text-align: center;
+}
+
+/* Navigation */
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+/* Introduction */
+#introduction p {
+    text-align: justify;
+}
+
+#introduction h2 {
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Image */
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Experience */
+#experience li:nth-child(odd) {
+    font-weight: lighter;
+}
+
+#experience li:nth-child(even) {
+    font-weight: bold;
+}
+
+/* Skills Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr:hover {
+    background-color: lightblue;
+}
+
+/* Projects */
+
+#projects li {
+    padding: 8px;
+    margin: 5px;
+    background-color: lightblue;
+    border-radius: 8px;
+}
+
+/* YouTube Video */
+
+#video {
+    text-align: center;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    border-radius: 10px;
+}
+
+/* Form */
+form {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+input,
+select {
+    padding: 8px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+} 
