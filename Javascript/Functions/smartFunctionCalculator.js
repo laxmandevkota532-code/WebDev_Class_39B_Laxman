@@ -2,7 +2,6 @@
 const add = (a, b) => {
     return a + b;
 };
-
 // Function for subtraction
 const subtract = (a, b) => {
     return a - b;
@@ -22,7 +21,7 @@ const divide = (a, b) => {
         return a / b;
     }
 };
-
+    
 // Function to perform calculation
 const calculate = (a, b, operationCallback) => {
     return operationCallback(a, b);
